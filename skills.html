@@ -1,0 +1,194 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Skills</title>
+		<meta name="utf-8">
+	<meta name="description" content="this is a website created to showcase my kills and experience as a software developer">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Olanrewaju Olatanwa">
+	<meta name="robot" content="index,follow">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="http://websitename.com/image.jpg">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="The title goes here">
+		
+		<style type="text/css">
+			body{
+				background-color:rgba(0,0,0,0.95);
+				font-family:Times New Roman, serif;
+				font-size:18px;
+				line-height:1.5
+			}
+			.container{
+				height:1000px;
+			}
+			.parent{
+				height:600px;
+				background-image:url('images/code.jpg');
+				background-size:contain;
+				background-position:center;
+			
+			}
+			.inner{
+				height:600px;
+				background-color:rgba(0,0,0,0.6);
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				position:relative;
+			}
+			.child{
+				height:60px;
+				width:70%;
+				background:grey;
+				border-radius:20px;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				top:5px;
+				position:sticky;
+				background-position:relative;
+				box-shadow:10px 5px 5px ghostwhite;
+
+				
+			}
+			.child1{
+				border:none;
+				height:60px;
+				width:10%;
+				border-radius:20px;
+				top:-250px;
+				left:-100px;
+				position:relative;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				background:black;
+			}
+			.child1 h1{
+				color:purple;
+			}
+			.firstlist{
+			position:absolute;
+			}
+			.firstlist li{
+				display:inline-block;
+				padding:40px;
+				font-size:18px;
+				font-family:arial, sans-serif;
+				text-shadow:5px 5px 5px grey;
+			}
+			.home{
+				background:purple;
+				font-size:24px;
+			}
+			ul li a{
+				text-decoration:none;
+				color:white;
+				font-family:Times New Roman, serif;
+			}
+			.box{
+				width:100%;
+				text-align:center;
+				color:white;
+				font-family:arial, sans-serif;
+				font-size:24px;
+				
+			}
+			.box h1{
+				color:purple;
+			}
+			.upper{
+				height:400px;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				
+			}
+		#skill{
+			height:250px;
+		}
+	#skill span{
+			color:purple;
+			font-size:24px;
+		}
+		p{
+			text-align:center;
+			color:white;
+			font-size:20px;
+		}
+		.skills{
+			height:800px;
+			padding:30px;
+		}
+		hr{
+			display:inline-block;
+			height:8px;
+			background:linear-gradient(to bottom left,orange,purple);
+		}
+		
+		#first{width:95%;}
+		#second{width:90%;}
+		#third{width:80%;}
+		#four{width:85%;}
+		#five{width:60%;}
+		
+		.skills p{
+			text-align:right;
+			color:white;
+		}
+		footer{
+			height:200px;
+			background-color:grey;
+		}
+		h3{color:white;}
+		
+		</style>
+	</head>
+	<body>
+	<div class="container">
+		<div  class="parent">
+			<div class="inner">
+				<div class="child1"><h1>Logo</h1></div>
+				<div class="child">
+					<ul class="firstlist">
+						<li><button class="home"><a href="index.html" target="_self">HOME</a></button></li>
+						<li><a href="about.html" target="_self">ABOUT</a></li>
+						<li><a href="skills.html" target="_self">SKILLS</a></li>
+						<li><a href="experience.html" target="_self">EXPERIENCE</a></li>
+						<li><a href="contact.html" target="_self">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			<div class="upper">
+				<div class="box">
+				<h1>SKILLS</h1>
+				<p>Proficient in the range of web design(HTML/CSS)</p>
+				<p>Proficient in the range of programming languages, including Java, Phyton and JavaScript</p>
+				<p>Expertise in framework such as Spring, React, and Angular, with a strong understanding of database design and development.</p>		
+				</div>
+			</div>
+			<div id="skill">
+					<p><span>Date Learning:</span> 3 september 2024</p>
+					<p><span>Date Learning:</span> 3 september 2024</p>
+					<p><span>Date Learning:</span> 3 september 2024</p>
+					<p><span>Date Learning:</span> 3 september 2024</p>
+			</div>
+			<div class="skills">
+					<h3>HTML <p id="shift">95%</p></h3>
+					<hr id="first">
+					<h3>Css <p  id="shift">90%</p></h3>
+					<hr  id="second">
+					<h3>Javascript <p  id="shift">80%</p></h3>
+					<hr  id="third">
+					<h3>jQuery <p  id="shift">85%</p></h3>
+					<hr  id="four">
+					<h3>PHP <p  id="shift">60%</p></h3>
+					<hr  id="five">
+			</div>
+			<footer></footer>
+		
+	</div>
+	</body>
+</html>

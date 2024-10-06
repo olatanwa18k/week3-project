@@ -1,0 +1,187 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Homepage</title>
+		<meta name="utf-8">
+	<meta name="description" content="this is a website created to showcase my kills and experience as a software developer">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Olanrewaju Olatanwa">
+	<meta name="robot" content="index,follow">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="http://websitename.com/image.jpg">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="The title goes here">
+		
+		<style type="text/css">
+			body{
+				background-color:rgba(0,0,0,0.95);
+				font-family:Times New Roman, serif;
+				font-size:18px;
+				line-height:1.5
+			}
+			.container{
+				height:1000px;
+			}
+			.parent{
+				height:600px;
+				background-image:url('images/code2.jpg');
+				background-size:contain;
+				background-position:center;
+			
+			}
+			.inner{
+				height:600px;
+				background-color:rgba(0,0,0,0.6);
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				position:relative;
+			}
+			.child{
+				height:60px;
+				width:70%;
+				background:grey;
+				border-radius:20px;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				top:5px;
+				position:sticky;
+				background-position:relative;
+				box-shadow:10px 5px 5px ghostwhite;
+			}
+			.child1{
+				border:none;
+				height:60px;
+				width:10%;
+				border-radius:20px;
+				top:-250px;
+				left:-100px;
+				position:relative;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				background:black;
+
+				
+			}
+			.child1 h1{
+				color:purple;
+			}
+			.firstlist{
+			position:absolute;
+			}
+			.firstlist li{
+				display:inline-block;
+				padding:40px;
+				font-size:18px;
+				font-family:arial, sans-serif;
+			}
+			.home{
+				background:purple;
+				font-size:24px;
+			}
+			ul li a{
+				text-decoration:none;
+				color:white;
+				font-family:Times New Roman, serif;
+				text-shadow:5px 5px 3px purple;
+			}
+		 #box{
+			height:750px;
+			display:flex;
+			flex-direction:rows;
+			justify-content:space-around;
+			align-items:center;
+			
+		 }
+		 .boxer{
+		 height:750px;
+			width:50%;
+			border-radius:30px;
+		 }
+		 .boxe1{
+			background-image:url('images/developer2.jpg');
+			background-size:cover;
+			background-position:center;
+		 }
+		 .boxe2{
+			padding:20px;
+			
+		 }
+		 
+		 h1{
+			color:black;
+		 }
+		 h2{
+		 color:ghostwhite;
+		 }
+		#headone{
+		color:purple;
+		background:linear-gradient(to bottom left,purple,white);
+		}
+		p{
+		color:ghostwhite;
+		}
+		#profession li{
+			color:white;
+			line-height:2;
+		}
+		#profession{
+			list-style-type:square;
+		}
+	 .boxe2 a{
+			font-size:22px;
+			padding:16px;
+			margin:20px;
+			color:ghostwhite;
+			text-decoration:none;
+			border:1px solid black;
+			border-radius:30px;
+			background:linear-gradient(to bottom left,purple,orange);
+			line-height:5;
+		}
+		footer{
+			height:200px;
+			background-color:grey;
+		}
+		
+		</style>
+	</head>
+	<body>
+	<div class="container">
+		<div  class="parent">
+		<div class="inner">
+				<div class="child1"><h1>Logo</h1></div>
+				<div class="child">
+					<ul class="firstlist">
+						<li><button class="home"><a href="index.html" target="_self">HOME</a></button></li>
+						<li><a href="about.html" target="_self">ABOUT</a></li>
+						<li><a href="skills.html" target="_self">SKILLS</a></li>
+						<li><a href="experience.html" target="_self">EXPERIENCE</a></li>
+						<li><a href="contact.html" target="_self">CONTACT</a></li>
+					</ul>
+				</div>
+		</div>
+		</div>
+			<div id="box">
+				<div class="boxe1 boxer"></div>
+				<div class="boxe2 boxer">
+					<h1 id="headone">Lorem Ipsum Title</h1>
+					<h2>Welcome to my corner of the web,<br> where i share my passion for building innovative software solutions.</h2>
+					<p>Expert software developer and problem-solver, dedicated to delevering high-quality solutions that exceed expectations.</p>
+					<p>highly skill software developer with 8+ years experience in bulding scalable and efficient software solutions.</p>
+					<p>Proficient in languages such as Java, Python, and Javascript, with expertise in frameworks like Spring and react.</p>
+					<p>Successfully led a team to develop a cloud-based e-commerce platform,resulting in a 30% increasing in sales</p>
+					<ul id="profession">
+						<li>Web Developer</li>
+						<li>IT Specialist</li>
+					</ul>
+					<a href="" id="code">CONTACT ME</a>
+				</div>
+			</div>
+			<footer></footer>
+		
+	</div>
+	</body>
+</html>
