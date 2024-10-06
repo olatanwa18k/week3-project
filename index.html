@@ -5,7 +5,7 @@
 		<meta name="utf-8">
 	<meta name="Welcome to my corner of the web,
 				where i share my passion for building innovative software solutions." content="this is a website created to showcase my skills and experience as a software developer">
-	<meta name="viewport" content="width=device-width, initial-scale=0.5">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Olanrewaju Olatanwa">
 	<meta name="robot" content="index,follow">
 	<meta property="og:type" content="website">
@@ -15,13 +15,17 @@
 		
 		<style type="text/css">
 			body{
-				background-color:rgba(0,0,0,0.95);
-				font-family:Times New Roman, serif;
-
-				line-height:1.5
+				background:black;
+				font-size:16px;
+			}
+			@media(max-width:450px){
+			body{
+			font-size:14px;
+			}
 			}
 			.container{
-				height:1000px;
+				width:100%;
+				padding:10px;
 			}
 			.parent{
 				height:600px;
@@ -41,7 +45,7 @@
 			}
 			.child{
 				height:60px;
-				width:85%;
+				width:70%;
 				background:grey;
 				border-radius:20px;
 				display:flex;
@@ -58,7 +62,7 @@
 				width:10%;
 				border-radius:20px;
 				top:-250px;
-				left:0px;
+				left:-50px;
 				position:relative;
 				display:flex;
 				justify-content:center;
@@ -76,12 +80,12 @@
 			.firstlist li{
 				display:inline-block;
 				padding:40px;
-				font-size:1.2em;
+				font-size:1em;
 				
 			}
 			.home{
 				background:purple;
-				font-size:1.3em;
+				font-size:1em;
 			}
 			ul li a{
 				text-decoration:none;
